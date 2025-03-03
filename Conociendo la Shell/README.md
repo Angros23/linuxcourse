@@ -260,7 +260,7 @@ Hasta este punto, ya hemos entendido en que consisten los comandos y un poco de 
 
 2. <details>
     <summary>Man</summary>
-    Con el comando man podrÍamos obtener la información de `ls` como vemos en el siguiente caso, 
+    Con el comando `man` podrÍamos obtener la información de `ls` como vemos en el siguiente caso, este es muy parecido al mismo help.
 
     ```bash
     user@machine-name:~$ man ls
@@ -476,4 +476,14 @@ Hasta este punto, ya hemos entendido en que consisten los comandos y un poco de 
     ```
     </details>
 
-    </details>
+3. <details>
+    <summary>Whatis</summary>
+    Con el comando `whatis` podremos obtener una pequeña descripción de que realiza o en que se emplea el comando, por ejemplo si usamos `whatis ls` veremos que nos indica que es para listar directorios. Ahora bien, sabiendo esto veremos que no siempre el comando `whatis` funciona, para esos casos veremos el siguiente commando llamado `info`
+
+    ```bash
+    user@machine-name:~$ whatis ls
+    ls (1)                  - list directory contents
+    ```
+   </details>
+
+</details>
